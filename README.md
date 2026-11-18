@@ -1,0 +1,3 @@
+# share
+
+somthing interest config
