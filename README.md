@@ -1,5 +1,3 @@
-# share
-
 Personal Vim without plugins and tcsh configuration.
 
 ## Vim
