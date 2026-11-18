@@ -1,14 +1,14 @@
 # Square blocks for tcsh: directory, date/time, exit status, runtime, history.
 # Runtime uses tcsh's command hooks and GNU date's millisecond clock.
-# Exact RGB colors from the brighter Tokyo Night palette in ~/.vimrc.
-# Block text uses #1a1b26; the exit block uses #d5dfff on #292e42.
-set path_block = "%{\033[48;2;130;170;255;38;2;26;27;38m%}"
-set user_text  = "%{\033[38;2;255;176;122m%}"
-set time_block = "%{\033[48;2;192;153;255;38;2;26;27;38m%}"
-set exit_block = "%{\033[48;2;41;46;66;38;2;213;223;255m%}"
-set run_block  = "%{\033[48;2;255;199;119;38;2;26;27;38m%}"
-set hist_block = "%{\033[48;2;79;214;190;38;2;26;27;38m%}"
-set cyan       = "%{\033[38;2;134;225;252m%}"
+# Exact RGB colors from the NvChad Base46 TokyoDark palette.
+# Accent blocks use #11121d text; the exit block uses #abb2bf on #1d1e29.
+set path_block = "%{\033[48;2;113;153;238;38;2;17;18;29m%}"
+set user_text  = "%{\033[38;2;246;149;91m%}"
+set time_block = "%{\033[48;2;164;133;221;38;2;17;18;29m%}"
+set exit_block = "%{\033[48;2;29;30;41;38;2;171;178;191m%}"
+set run_block  = "%{\033[48;2;215;166;95;38;2;17;18;29m%}"
+set hist_block = "%{\033[48;2;81;154;186;38;2;17;18;29m%}"
+set cyan       = "%{\033[38;2;56;168;157m%}"
 set reset      = "%{\033[0m%}"
 
 # Preserve existing hooks once, so sourcing this file again is safe.
