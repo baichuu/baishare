@@ -1,8 +1,8 @@
 # share
 
-Personal Vim and tcsh configuration.
+Personal Vim without plugins and tcsh configuration.
 
-## Vim without plugins
+## Vim
 
 ![Vim with the TokyoDark palette and custom statusline](assets/2026-11-19_00-18.png)
 
