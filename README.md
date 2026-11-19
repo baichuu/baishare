@@ -62,5 +62,7 @@ cp "$PWD/vim/vimrc-8.2-gatekeeper.vim" "$HOME/.vimrc"
 
 ## tcsh
 
-The [two-line prompt](tcsh-prompt/prompt.csh) uses the same TokyoDark palette.
-From the project root in tcsh, run `source tcsh-prompt/prompt.csh`.
+From the project root in tcsh, source either two-line prompt.
+
+- [TokyoDark](tcsh-prompt/prompt.csh) with `source tcsh-prompt/prompt.csh`
+- [Gatekeeper](tcsh-prompt/prompt-gatekeeper.csh) with `source tcsh-prompt/prompt-gatekeeper.csh`

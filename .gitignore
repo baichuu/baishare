@@ -13,3 +13,4 @@
 !/tcsh-prompt/
 /tcsh-prompt/*
 !/tcsh-prompt/prompt.csh
+!/tcsh-prompt/prompt-gatekeeper.csh
