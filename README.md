@@ -38,6 +38,13 @@ vim82 -u "$PWD/vim/vimrc-8.2.vim"
 vim   -u "$PWD/vim/vimrc-latest.vim"
 ```
 
+The standalone [Gatekeeper config](vim/vimrc-8.2-gatekeeper.vim) uses the
+Gatekeeper palette from Theme Sync with Vim 8.2.
+
+```sh
+vim82 -u "$PWD/vim/vimrc-8.2-gatekeeper.vim"
+```
+
 ### Use it by default
 
 If you already have a `~/.vimrc`, back it up first. Then copy the config for
@@ -45,6 +52,12 @@ your Vim version to `~/.vimrc`. For the latest Vim, run the following command.
 
 ```sh
 cp "$PWD/vim/vimrc-latest.vim" "$HOME/.vimrc"
+```
+
+For Vim 8.2 with Gatekeeper, use this command.
+
+```sh
+cp "$PWD/vim/vimrc-8.2-gatekeeper.vim" "$HOME/.vimrc"
 ```
 
 ## tcsh

@@ -8,6 +8,7 @@
 /vim/*
 !/vim/vimrc-8.0.vim
 !/vim/vimrc-8.2.vim
+!/vim/vimrc-8.2-gatekeeper.vim
 !/vim/vimrc-latest.vim
 !/tcsh-prompt/
 /tcsh-prompt/*
